@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio autoplay loop> <source src="taylor.mp3" type="audio/mpeg">  </audio>
+    <div id="container">
+        <!-- Botón Presióname -->
+        <button id="pressButton">Presióname</button>
+
+    
+        <div id="envelopeContainer">
+            <div id="envelope">
+                <div id="envelopeSeal"></div>
+                <button id="openButton">Ábreme</button>
+            </div>
+            <button id="closeButton">Cerrar</button>
+        </div>
+        
+   
+        <div id="notebookContainer">
+            <div id="notebook">
+                <div id="cover">
+                    <h2>Las 5 cosas que percibo de Zuleyka</h2>
+                    <img src="zule.jpeg" alt="Zuleyka">
+                    <button id="openNotebookButton">Ábreme</button>
+                </div>
+                <div id="pagesContainer">
+                 
+                    <div class="page" id="page1">Amabilidad: Muy aparte de que por cosas que me ha contado fiorella noto en ti que eres una persona muy amable.</div>
+                    <div class="page" id="page2">Humildad: Estudias en mundo america, muy humilde de tu parte JAJAJAJAJAJAJ, ya pero fdj me das esas vibes</div>
+                    <div class="page" id="page3">Presencia: Siento que tienes la habilidad de controlar tu deseo de llamar la atención. En el colegio no parecías querer destacarte o bueno yo lo percibí de ese modo, pero me impresionaste mucho cuando te vi fuera de él. Tu presencia es realmente notable</div>
+                    <div class="page" id="page4">Estilo: Me encanta!!! créeme que me encanta tu forma de vestir, te haces resaltar muchisimo y te queda demasiado bien</div>
+                    <div class="page" id="page5">Personalidad: Y Boeee no te conozco tanto pero desde mi perspectiva y bueno de lo que me han hablado de ti se que eres una chica increíble</div>
+                    <div class="page" id="page6">Bueno como resolución quiero decirte que eres una chica muy increíble y no te miento, te me haces linda tanto físicamente y quiero creer que también emocionalmente, tanto por lo que he visto y por lo que me han contado, eres una chica muy interesante Zuleyka</div>
+                 
+                    <button id="prevPageButton">Anterior</button>
+                    <button id="nextPageButton">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mensaje final -->
+        <div id="messageFinal">
+            <p>Espero la pases super en tu cumpleaños, guapa❤️</p>
+            <img src="zuleyka.gif" alt="Zuleyka" id="finalGif">
+        </div>
+        
+        <!-- Nuevo fondo (inicialmente oculto) -->
+        <div id="newBackground"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <div id="confettiContainer"></div>
+    <audio id="backgroundMusic" src="taylor.mp3" preload="auto"></audio>
+</body>
+</html>
